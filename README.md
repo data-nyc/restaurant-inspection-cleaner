@@ -2,7 +2,7 @@ restaurant-inspection-cleaner
 =============================
 
 The inspection data provided on
-[data.cityofnewyork.us](http://data.cityofnewyork.us) is not in the proper
+[data.cityofnewyork.us](https://data.cityofnewyork.us/Health/Restaurant-Inspection-Results/4vkw-7nck) is not in the proper
 comma separated values format. This script was created to correct the
 current set of data in Restaurant Inspection Results.
 
@@ -13,7 +13,7 @@ current set of data in Restaurant Inspection Results.
 - Make installed
 
 
-## Installation
+## Setup
 
 Clone the git repository
 
@@ -22,7 +22,7 @@ Clone the git repository
 
 ## Howto
 
-Run actions within Makefile
+Run actions within Makefile.  After this has been run, a set of cleaned files will be located in ./cleaned in the main directory.
 
     > make
 
