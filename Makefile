@@ -4,7 +4,7 @@ all: retrieve-latest-source uncompress-source create-cleaned-dir action cuisine 
 
 retrieve-latest-source: create-source-dir
 	@echo "retrieving latest source of restaurant inspection data"
-	@curl -o source/inspection-data.zip http://www.nyc.gov/html/doh/downloads/zip/bigapps/dohmh_restaurant-inspections_002.zip
+	@curl -o source/inspection-data.zip -L https://data.cityofnewyork.us/download/4vkw-7nck/ZIP
 	@echo
 
 uncompress-source:
